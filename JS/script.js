@@ -173,7 +173,7 @@ const films = [
    }        
  ];
 
-    // Function updating the movie details
+// Function updating the movie details
     function updateMovieDetails(movie) {
         filmDetails.innerHTML = `
             <div>
