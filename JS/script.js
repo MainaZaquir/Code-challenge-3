@@ -137,7 +137,8 @@ const films = [
      "description": "A series of murders in Michigan lead an American secret agent to Amsterdam, where he uncovers a plot to imperil the world with a potent new drug.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/93417/p93417_v_v8_aa.jpg",
      "showing_id": "12"
-   },
+  },
+   
    {
      "id": "13",
      "title": "Wild Rebels",
