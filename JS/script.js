@@ -114,7 +114,8 @@ const films = [
      "tickets_sold": 44,
      "description": "Giant spiders from another dimension invade Wisconsin.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/42171/p42171_v_v8_ab.jpg"
-   },
+  },
+   
    {
      "id": "11",
      "title": "Catalina Caper",
