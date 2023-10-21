@@ -200,11 +200,14 @@ const films = [
     function updateFilmMenu(films) {
         filmMenu.innerHTML = '';
         films.forEach(film => {
+          
             const li = document.createElement('li');
             li.classList.add('film', 'item');
+          
             if (film.capacity === film.tickets_sold) {
                 li.classList.add('sold-out');
             }
+          
             li.textContent = film.title;
             li.addEventListener('click', () => {
                 updateMovieDetails(film);
