@@ -125,7 +125,8 @@ const films = [
      "tickets_sold": 12,
      "description": "A group of swingin' teens take time out from having fun in the sun to try to foil a group of crooks searching for a stolen scroll.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/58122/p58122_v_v8_aa.jpg"
-   },
+  },
+   
    {
      "id": "12",
      "title": "Secret Agent Super Dragon",
