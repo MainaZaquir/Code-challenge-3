@@ -216,12 +216,15 @@ const films = [
         });
     }
 
-    // Function handling ticket purchase
+// Function handling ticket purchase
+  
     function buyTicket(movie) {
         if (movie.capacity > movie.tickets_sold) {
             movie.tickets_sold++;
             updateMovieDetails(movie);
-            // Simulating server update
+          
+          // Simulating server update
+          
             console.log(`Ticket bought for ${movie.title}`);
             if (movie.capacity === movie.tickets_sold) {
                 const filmItems = filmMenu.getElementsByTagName('li');
@@ -237,17 +240,20 @@ const films = [
         }
     }
 
-    // Function to display the modal after purchasing a ticket
+// Function to display the modal after purchasing a ticket
+  
     function displayModal() {
         modal.style.display = 'block';
     }
 
-    // Closing the modal on click
+// Closing the modal on click
+  
     closeButton.onclick = function() {
         modal.style.display = "none";
     };
 
-    // Initializing the application
+// Initializing the application
+  
     updateMovieDetails(films[0]);
     updateFilmMenu(films);
 });
