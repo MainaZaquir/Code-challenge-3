@@ -81,7 +81,8 @@ const films = [
      "tickets_sold": 22,
      "description": "A woman seeks revenge on her former lover, who owns a skydiving business.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/40518/p40518_v_v8_aa.jpg"
-   },
+  },
+   
    {
      "id": "8",
      "title": "The Killer Shrews",
