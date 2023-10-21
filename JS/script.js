@@ -48,7 +48,8 @@ const films = [
      "tickets_sold": 31,
      "description": "A young man meets a farm girl who is actually a witch.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/43468/p43468_v_v8_aa.jpg"
-   },
+  },
+   
    {
      "id": "5",
      "title": "Santa Claus Conquers The Martians",
