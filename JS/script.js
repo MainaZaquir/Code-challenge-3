@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const closeButton = document.querySelector('.close');
 
 // Simulating data from the JSON file
-    const films = [
+const films = [
    {
      "id": "1",
      "title": "The Giant Gila Monster",
