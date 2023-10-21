@@ -195,7 +195,8 @@ const films = [
       );
     }
 
-// Function updating the film menu
+  // Function updating the film menu
+  
     function updateFilmMenu(films) {
         filmMenu.innerHTML = '';
         films.forEach(film => {
