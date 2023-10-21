@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById('modal');
     const closeButton = document.querySelector('.close');
 
-    // Simulated data from the JSON file
+    // Simulating data from the JSON file
     const films = [
    {
             "id": "1",
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
  ];
 
-    // Function to update the movie details
+    // Function updating the movie details
     function updateMovieDetails(movie) {
         filmDetails.innerHTML = `
             <div>
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Function to update the film menu
+    // Function updating the film menu
     function updateFilmMenu(films) {
         filmMenu.innerHTML = '';
         films.forEach(film => {
@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Function to handle ticket purchase
+    // Function handling ticket purchase
     function buyTicket(movie) {
         if (movie.capacity > movie.tickets_sold) {
             movie.tickets_sold++;
@@ -218,17 +218,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Function to display modal after purchasing a ticket
+    // Function to display the modal after purchasing a ticket
     function displayModal() {
         modal.style.display = 'block';
     }
 
-    // Close modal on click
+    // Closing the modal on click
     closeButton.onclick = function() {
         modal.style.display = "none";
     };
 
-    // Initialize the application
+    // Initializing the application
     updateMovieDetails(films[0]);
     updateFilmMenu(films);
 });
