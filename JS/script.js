@@ -170,8 +170,7 @@ const films = [
      "tickets_sold": 33,
      "description": "Delinquent teen-agers ingest a substance and grow thirty feet tall, then proceed to take over a small town.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/37991/p37991_v_v8_aa.jpg"
-   }
-        
+   }        
  ];
 
     // Function updating the movie details
