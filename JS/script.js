@@ -37,7 +37,8 @@ const films = [
      "tickets_sold": 31,
      "description": "An inventor comes up with a time machine, but must prevent its abuse at the hands of an evil C.E.O.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/23342/p23342_v_v8_ab.jpg"
-   },
+  },
+   
    {
      "id": "4",
      "title": "The Touch Of Satan",
