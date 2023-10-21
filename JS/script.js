@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById('modal');
     const closeButton = document.querySelector('.close');
 
-    // Simulating data from the JSON file
+// Simulating data from the JSON file
     const films = [
    {
      "id": "1",
