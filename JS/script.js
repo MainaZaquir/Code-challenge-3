@@ -191,7 +191,8 @@ const films = [
         const buyTicketBtn = document.getElementById('buyTicketBtn');
         buyTicketBtn.addEventListener('click', () => {
             buyTicket(movie);
-        });
+        }
+      );
     }
 
     // Function updating the film menu
