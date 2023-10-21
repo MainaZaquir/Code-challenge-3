@@ -59,7 +59,8 @@ const films = [
      "tickets_sold": 45,
      "description": "The Martians kidnap Santa Claus because there is nobody on Mars to give their children presents.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/4232/p4232_v_v8_aa.jpg"
-   },
+  },
+   
    {
      "id": "6",
      "title": "Track Of The Moon Beast",
