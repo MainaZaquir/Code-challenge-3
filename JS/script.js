@@ -92,7 +92,8 @@ const films = [
      "tickets_sold": 32,
      "description": "On an isolated island, a small group of people are terrorized by giant voracious shrews in the midst of a hurricane.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/1466/p1466_v_v8_ab.jpg"
-   },
+  },
+   
    {
      "id": "9",
      "title": "Project Moon Base",
