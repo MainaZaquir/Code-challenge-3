@@ -70,7 +70,8 @@ const films = [
      "tickets_sold": 16,
      "description": "A young man is transformed into a hideous 'moon beast' due to a meteor fragment lodged in his body.",
      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/39804/p39804_v_v8_ab.jpg"
-   },
+  },
+   
    {
      "id": "7",
      "title": "The Skydivers",
