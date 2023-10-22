@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById('modal');
     const closeButton = document.querySelector('.close');
 
-    // Fetching data from the server
+// Fetching data from the server
     fetch('http://localhost:3000/films')
     .then(response => response.json())
     .then(data => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         updateFilmMenu(data);
     });
 
-    // Function to update movie details
+// Function for updatating the movie details
     function updateMovieDetails(movie) {
         filmDetails.innerHTML = `
             <div>
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Function to update the film menu
+// Function for updatating the film menu
     function updateFilmMenu(films) {
         filmMenu.innerHTML = '';
         films.forEach(film => {
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Function to handle ticket purchase
+// Function for handling a ticket purchase
     function buyTicket(movie) {
         event.preventDefault();
         if (movie.capacity > movie.tickets_sold) {
@@ -71,12 +71,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Function to display the modal after purchasing a ticket
+// Function for displaying the modal after purchasing a ticket
     function displayModal() {
         modal.style.display = 'block';
     }
 
-    // Closing the modal on click
+// Closing the modal on click
     closeButton.onclick = function() {
         modal.style.display = 'none';
     };
