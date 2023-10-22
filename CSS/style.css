@@ -44,6 +44,7 @@ body {
     left: 1;
     top: 0;
     width: 100%;
+    aspect-ratio: 16 / 9;
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
