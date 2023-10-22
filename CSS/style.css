@@ -7,64 +7,68 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 10 auto;
     padding: 20px;
-}
-
-.carousel-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.carousel {
-    width: 70%;
+#film-details {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+
 }
 
-.carousel-item {
-    text-align: center;
-    width: 100%;
-    display: none;
+#films {
+    flex: 1;
+    list-style: none;
+    padding: 50;
 }
 
-.active {
-    display: block;
-}
-
-.card {
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-    width: 250px;
-}
-
-.card-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.card-description {
-    margin-bottom: 10px;
-}
-
-.card-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.buy-ticket-btn {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 10px;
+.film.item {
     cursor: pointer;
-    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e4e4e4;
+}
+
+.sold-out {
+    text-decoration: line-through;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 1;
+    top: 0;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
