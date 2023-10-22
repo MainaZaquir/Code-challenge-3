@@ -33,7 +33,7 @@ Once the application is open in your web browser, you can vie the list of availa
 
 ## Credits
 
-This application was created by `Maina Zaquir`.Special thanks to `Sam Tomashi` and `Caleb Kiprotich` for providing the guidance and support necessary for developing this application.
+This application was created by [Maina Zaquir](https://github.com/MainaZaquir).Special thanks to [Sam Tomashi](https://github.com/SamTomashi) and [Caleb Kiprotich](https://github.com/Calebbii) for providing the guidance and support necessary for developing this application.
 
 ## License
 
