@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const closeButton = document.querySelector('.close');
 
 // Fetching data from the server
-    fetch('http://localhost:3000/films')
+    fetch('https://my-json-server.typicode.com/MainaZaquir/Code-challenge-3/films')
     .then(response => response.json())
     .then(data => {
         updateMovieDetails(data[0]);
